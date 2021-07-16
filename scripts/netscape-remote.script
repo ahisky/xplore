@@ -15,8 +15,8 @@ if [ -z "$NETSCAPE" ]; then
     NETSCAPE=mozilla
   elif [ -x "`which firefox 2>/dev/null`" ]; then
     NETSCAPE=firefox
-  elif [ -x "`which lynx 2>/dev/null`" ]; then
-    NETSCAPE=lynx
+  elif [ -x "`which palemoon 2>/dev/null`" ]; then
+    NETSCAPE=palemoon
   else
     echo "$0: could not find a suitable browser" >&2
     exit 1
