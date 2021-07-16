@@ -787,7 +787,7 @@ static MenuDesc options_menu_desc = {
 };
 
 static char manual[MAXPATHLEN], faq[MAXPATHLEN],
-  website[] = "http://www.musikwissenschaft.uni-mainz.de/~ag/xplore";
+  website[] = "http://github.com/ahisky/xplore";
 
 static MenuDesc help_menu_desc = {
   PUSH_BUTTON("Xplore manual", NULL, NULL, NULL, HelpCB, manual,
