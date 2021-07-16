@@ -13,6 +13,10 @@ if [ -z "$NETSCAPE" ]; then
     NETSCAPE=netscape
   elif [ -x "`which mozilla 2>/dev/null`" ]; then
     NETSCAPE=mozilla
+  elif [ -x "`which firefox 2>/dev/null`" ]; then
+    NETSCAPE=firefox
+  elif [ -x "`which lynx 2>/dev/null`" ]; then
+    NETSCAPE=lynx
   else
     echo "$0: could not find a suitable browser" >&2
     exit 1
