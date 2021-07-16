@@ -300,6 +300,7 @@ int search_file_type(void)
 	  goto err;
       return i;
     err:
+      ;
     }
   }
   return NONE;
